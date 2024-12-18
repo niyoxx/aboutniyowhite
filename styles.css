@@ -744,4 +744,144 @@ p{
         margin-top:2rem
     }
 }
+@media (max-width: 1300px) {
+    .skills-item {
+        opacity:1;
+        border-width: 2px
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills-item {
+        height:80px;
+        width: 130px
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-item {
+        height:70px;
+        width: 115px
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-item {
+        height:60px;
+        width: 100px
+    }
+}
+
+@media (max-width: 410px) {
+    .skills-item {
+        height:50px;
+        width: 80px
+    }
+}
+
+@media (max-width: 340px) {
+    .skills-item {
+        height:45px;
+        width: 70px
+    }
+}
+@media (max-width: 410px) {
+    .skills-item:not(:last-child) {
+        margin-bottom:15px
+    }
+}
+@media (max-width: 1500px) {
+    .skills-item img {
+        height:55px
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills-item img {
+        height:50px
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-item img {
+        height:45px
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-item img {
+        height:35px
+    }
+}
+
+@media (max-width: 410px) {
+    .skills-item img {
+        height:26px
+    }
+}
+@media (max-width: 1200px) {
+    .skills-item-name {
+        font-size:1.4rem
+    }
+}
+
+@media (max-width: 770px) {
+    .about-me-title:before {
+        border-bottom:14px solid #ff4d5a
+    }
+}
+@media (max-width: 1300px) {
+    .about-me-content {
+        flex-direction:column
+    }
+}
+@media (max-width: 700px) {
+    .heading-line-1,.heading-line-2 {
+        font-size:5rem;
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem
+    }
+}
+
+@media (max-width: 550px) {
+    .heading-line-1,.heading-line-2 {
+        font-size:5rem
+    }
+}
+@media (max-width: 1500px) {
+    .lets-begin{
+        width:auto
+    }
+}
+
+@media (max-width: 700px) {
+    .lets-begin {
+        margin-top:1.8rem
+    }
+}
+
+@media (max-width: 550px) {
+    .lets-begin {
+        padding:0.8rem 2rem
+    }
+}
+
+@media (max-width: 1200px) {
+    .navigation {
+        margin-right:3rem
+    }
+}
+
+@media (max-width: 700px) {
+    .navigation {
+        margin-right:0
+    }
+}
+@media (max-width: 700px) {
+    .navigation-bar {
+        justify-content:center
+    }
+}
+
 
