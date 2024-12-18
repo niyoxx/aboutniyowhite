@@ -883,5 +883,23 @@ p{
         justify-content:center
     }
 }
+@media (max-width: 600px) {
+    .info-me {
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+@media (max-width: 1200px) {
+    .about-me-title, .projects-title, .contact-title, {
+        margin-bottom:10rem
+    }
+}
+
+@media (max-width: 1000px) {
+    .about-me-title, .projects-title, .contact-title, {
+        margin-top:6rem
+    }
+}
 
 
