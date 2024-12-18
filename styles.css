@@ -664,3 +664,84 @@ p{
 .socials-linkedin{
     margin-right: 1rem;
 }
+@media (max-width: 1700px) {
+    .project-right {
+        margin-right:11rem
+    }
+}
+
+@media (max-width: 1500px) {
+    .project-right {
+        margin-right:0
+    }
+}
+
+.project-right .project-info {
+    right: -8rem;
+    margin-left: -2rem
+}
+
+@media (max-width: 770px) {
+    .project-right .project__info {
+        margin-left:-4rem
+    }
+}
+
+@media (max-width: 600px) {
+    .project-right .project-info {
+        margin-left:-6rem
+    }
+}
+
+@media (max-width: 440px) {
+    .project-right .project-info {
+        right:-10rem;
+        margin-left: -7rem
+    }
+}
+@media (max-width: 800px) {
+    .project-left .project__info {
+        margin-right:-4rem
+    }
+}
+
+@media (max-width: 770px) {
+    .project-left .project__info {
+        margin-right:-4rem
+    }
+}
+
+@media (max-width: 600px) {
+    .project-left .project__info {
+        margin-right:-6rem
+    }
+}
+
+@media (max-width: 440px) {
+    .project-left .project__info {
+        left:-10rem;
+        margin-right: -7rem
+    }
+}
+@media (max-width: 1700px) {
+    .project-left {
+        margin-left:11rem
+    }
+}
+
+@media (max-width: 1500px) {
+    .project-left {
+        margin-left:0
+    }
+}
+@media (max-width: 560px) {
+    .project-live-2 {
+        margin-top:2rem
+    }
+}
+@media (max-width: 560px) {
+    .project-desr {
+        margin-top:2rem
+    }
+}
+
